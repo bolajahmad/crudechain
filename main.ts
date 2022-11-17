@@ -9,7 +9,7 @@ import {
   getLatestBlock,
   isValidNewBlock,
   replaceChain,
-} from "./src/utils/blocks.utils";
+} from "./src/blocks.utils";
 
 var http_port = process.env.HTTP_PORT || 3001;
 var p2p_port = Number(process.env.P2P_PORT) || 6001;
